@@ -29,12 +29,12 @@ const Portfolio = () => {
       description: "Autonomous AI vs AI Pacman game implementing A* pathfinding for ghost agents and Limited-Depth BFS for Pacman navigation. Features anti-oscillation system to prevent infinite loops.",
       technologies: ["C++", "OpenGL", "A* Algorithm", "BFS", "AI Agents", "Game Development"],
       media: [
-        { type: 'image', src: '/images/pacman-1.jpg', alt: 'Pacman Game Interface' },
-        { type: 'image', src: '/images/pacman-2.jpg', alt: 'AI Pathfinding Visualization' },
-        { type: 'image', src: '/images/pacman-3.jpg', alt: 'Game Statistics' },
+        { type: 'image', src: '/images/pacman-1.png', alt: 'Pacman Game Interface' },
+        { type: 'image', src: '/images/pacman-2.jpg', alt: 'The Ghost' },
+        { type: 'image', src: '/images/pacman-3.jpg', alt: 'Pacman and the Ghosts' },
         { type: 'video', src: '/videos/pacman-demo.mp4', alt: 'AI Pacman Gameplay Demo' }
       ],
-      githubUrl: "https://github.com/orsreshef/ai-pacman",
+      githubUrl: "https://github.com/orsreshef/ai-pacman-game",
       type: "game"
     },
     {
@@ -140,9 +140,7 @@ const Portfolio = () => {
             Your browser does not support the video tag.
           </video>
         )}
-        
-        <div className="absolute inset-0 bg-sage-900 bg-opacity-20"></div>
-        
+                
         {/* Navigation Arrows */}
         {media.length > 1 && (
           <>
@@ -343,7 +341,7 @@ const Portfolio = () => {
                   <div>
                     <h5 className="font-medium text-sage-800">B.Sc in Computer Science</h5>
                     <p className="text-sage-600">Afeka Academic College of Engineering</p>
-                    <p className="text-sage-600">GPA: 84 | Oct 2023 - Present</p>
+                    <p className="text-sage-600">GPA: 85 | Oct 2023 - Present</p>
                   </div>
                   <div>
                     <h5 className="font-medium text-sage-800">Science Oriented High School Diploma</h5>
@@ -482,7 +480,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="bg-sage-900 text-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-sage-300">© 2024 Or Reshef. Built with React and deployed on GitHub Pages.</p>
+          <p className="text-sage-300">© 2025 Or Reshef. Built with React and deployed on GitHub Pages.</p>
           <p className="text-sage-400 mt-2">Passionate about creating innovative solutions through code.</p>
         </div>
       </footer>

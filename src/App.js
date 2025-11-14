@@ -19,7 +19,6 @@ const Portfolio = () => {
         { type: 'video', src: '/videos/travel-planner-demo.mp4', alt: 'Travel Planner Demo Video' }
       ],
       githubUrl: "https://github.com/orsreshef/travel-route-planner",
-      demoUrl: "https://travel-planner-demo.netlify.app",
       type: "web"
     },
     {

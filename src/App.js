@@ -58,12 +58,12 @@ const Portfolio = () => {
       description: "An automated system using N8N workflows to generate and email personalized travel reports. Demonstrates proficiency in API integration and workflow automation.",
       technologies: ["N8N", "JavaScript", "Airtable", "HTML", "OpenAI API", "Workflow Automation"],
       media: [
-        { type: 'image', src: '/images/travel-reports-1.jpg', alt: 'N8N Workflow Design' },
-        { type: 'image', src: '/images/travel-reports-2.jpg', alt: 'Generated Report Example' },
-        { type: 'image', src: '/images/travel-reports-3.jpg', alt: 'Airtable Integration' },
+        { type: 'image', src: '/images/travel-reports-1.png', alt: 'N8N Workflow Design' },
+        { type: 'image', src: '/images/travel-reports-2.png', alt: 'Generated Report Example' },
+        { type: 'image', src: '/images/travel-reports-3.png', alt: 'Airtable Integration' },
         { type: 'video', src: '/videos/travel-reports-demo.mp4', alt: 'Workflow Automation Demo' }
       ],
-      githubUrl: "https://github.com/orsreshef/travel-report-generator",
+      githubUrl: "https://github.com/orsreshef/travel-report-automation",
       type: "automation"
     }
   ];

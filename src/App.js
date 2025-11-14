@@ -13,12 +13,12 @@ const Portfolio = () => {
       description: "A comprehensive travel planning platform with secure user authentication and personalized route management. Features AI-powered recommendations and Docker containerization.",
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Docker", "GROQ LLM", "APIs"],
       media: [
-        { type: 'image', src: '/images/travel-planner-1.jpg', alt: 'Travel Planner Home Page' },
-        { type: 'image', src: '/images/travel-planner-2.jpg', alt: 'Route Planning Interface' },
-        { type: 'image', src: '/images/travel-planner-3.jpg', alt: 'User Dashboard' },
+        { type: 'image', src: '/images/travel-planner-1.png', alt: 'Travel Planner Home Page' },
+        { type: 'image', src: '/images/travel-planner-2.png', alt: 'Route Planning Interface' },
+        { type: 'image', src: '/images/travel-planner-3.png', alt: 'User Dashboard' },
         { type: 'video', src: '/videos/travel-planner-demo.mp4', alt: 'Travel Planner Demo Video' }
       ],
-      githubUrl: "https://github.com/orsreshef/travel-planner",
+      githubUrl: "https://github.com/orsreshef/travel-route-planner",
       demoUrl: "https://travel-planner-demo.netlify.app",
       type: "web"
     },
@@ -30,8 +30,8 @@ const Portfolio = () => {
       technologies: ["C++", "OpenGL", "A* Algorithm", "BFS", "AI Agents", "Game Development"],
       media: [
         { type: 'image', src: '/images/pacman-1.png', alt: 'Pacman Game Interface' },
-        { type: 'image', src: '/images/pacman-2.jpg', alt: 'The Ghost' },
-        { type: 'image', src: '/images/pacman-3.jpg', alt: 'Pacman and the Ghosts' },
+        { type: 'image', src: '/images/pacman-2.png', alt: 'The Ghost' },
+        { type: 'image', src: '/images/pacman-3.png', alt: 'Pacman and the Ghosts' },
         { type: 'video', src: '/videos/pacman-demo.mp4', alt: 'AI Pacman Gameplay Demo' }
       ],
       githubUrl: "https://github.com/orsreshef/ai-pacman-game",

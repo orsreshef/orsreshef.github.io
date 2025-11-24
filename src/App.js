@@ -13,9 +13,10 @@ const Portfolio = () => {
       description: "A comprehensive travel planning platform with secure user authentication and personalized route management. Features AI-powered recommendations and Docker containerization.",
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Docker", "GROQ LLM", "APIs"],
       media: [
-        { type: 'image', src: '/images/travel-planner-1.png', alt: 'Travel Planner Home Page' },
+        { type: 'image', src: '/images/travel-planner-0.png', alt: 'Travel Planner Home Page' },
+        { type: 'image', src: '/images/travel-planner-2.png', alt: 'Travel Planner Home Page' },
         { type: 'image', src: '/images/travel-planner-2.png', alt: 'Route Planning Interface' },
-        { type: 'image', src: '/images/travel-planner-3.png', alt: 'User Dashboard' },
+        { type: 'image', src: '/images/travel-planner-1.png', alt: 'User Dashboard' },
         { type: 'video', src: '/videos/travel-planner-demo.mp4', alt: 'Travel Planner Demo Video' }
       ],
       githubUrl: "https://github.com/orsreshef/travel-route-planner",
@@ -40,7 +41,7 @@ const Portfolio = () => {
       id: 3,
       title: "AI Combat Game - Team Vs Team Strategy",
       subtitle: "Multi-Agent AI System with Advanced Pathfinding & State Machines",
-      description: "A sophisticated real-time strategy game featuring autonomous AI teams with tactical coordination. Features polymorphic unit classes (Commander, Warriors, Medics, Supply) with coordinated decision-making, dynamic safety maps and intelligent resource management through depot logistics. Implements A* pathfinding for optimal navigation, BFS for cover-finding, and hierarchical FSMs for unit behavior.",
+      description: "Real-time strategy game with autonomous AI teams and tactical coordination. Demonstrates OOP with polymorphic unit classes and Commander-led decision-making. Implements A* pathfinding, BFS algorithms, and hierarchical FSMs.",
       technologies: ["C++", 
         "OpenGL", 
         "A* Pathfinding", 

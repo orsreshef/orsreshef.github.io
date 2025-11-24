@@ -38,6 +38,31 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "AI Combat Game - Team Vs Team Strategy",
+      subtitle: "Multi-Agent AI System with Advanced Pathfinding & State Machines",
+      description: "A sophisticated real-time strategy game featuring autonomous AI teams with tactical coordination. Features polymorphic unit classes (Commander, Warriors, Medics, Supply) with coordinated decision-making, dynamic safety maps and intelligent resource management through depot logistics. Implements A* pathfinding for optimal navigation, BFS for cover-finding, and hierarchical FSMs for unit behavior.",
+      technologies: ["C++", 
+        "OpenGL", 
+        "A* Pathfinding", 
+        "BFS Algorithm",
+        "OOP Design",
+        "Polymorphism",
+        "Finite State Machines",
+        "Multi-Agent AI",
+        "Real-Time Strategy",
+        "Collision Detection"],
+      media: [
+        { type: 'image', src: '/images/gameplay1.png', alt: 'Combat Game Interface' },
+        { type: 'image', src: '/images/gameplay4.png', alt: 'The Warriors' },
+        { type: 'image', src: '/images/gameplay3.png', alt: 'Gunshots and grenades' },
+        { type: 'image', src: '/images/gameplay5.png', alt: 'Game board' },
+        { type: 'video', src: '/videos/combat-game-demo.mp4', alt: 'Full Gameplay Demo' }
+      ],
+      githubUrl: "https://github.com/orsreshef/AI-combat-game",
+      type: "game"
+    },
+    {
+      id: 4,
       title: "Supermarket Management System",
       subtitle: "Object-Oriented Programming",
       description: "A comprehensive Buy & Sell system demonstrating advanced OOP concepts in Java. Focuses on clean architecture, design patterns, and maintainable code structure.",
@@ -52,7 +77,7 @@ const Portfolio = () => {
       type: "application"
     },
     {
-      id: 4,
+      id: 5,
       title: "Automated Travel Report Generator",
       subtitle: "Workflow Automation",
       description: "An automated system using N8N workflows to generate and email personalized travel reports. Demonstrates proficiency in API integration and workflow automation.",

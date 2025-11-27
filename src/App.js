@@ -15,7 +15,7 @@ const Portfolio = () => {
       media: [
         { type: 'image', src: '/images/travel-planner-0.png', alt: 'Travel Planner Home Page' },
         { type: 'image', src: '/images/travel-planner-2.png', alt: 'Travel Planner Home Page' },
-        { type: 'image', src: '/images/travel-planner-2.png', alt: 'Route Planning Interface' },
+        { type: 'image', src: '/images/travel-planner-3.png', alt: 'Route Planning Interface' },
         { type: 'image', src: '/images/travel-planner-1.png', alt: 'User Dashboard' },
         { type: 'video', src: '/videos/travel-planner-demo.mp4', alt: 'Travel Planner Demo Video' }
       ],
@@ -64,21 +64,6 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Supermarket Management System",
-      subtitle: "Object-Oriented Programming",
-      description: "A comprehensive Buy & Sell system demonstrating advanced OOP concepts in Java. Focuses on clean architecture, design patterns, and maintainable code structure.",
-      technologies: ["Java", "OOP", "Design Patterns", "Clean Architecture", "SOLID Principles"],
-      media: [
-        { type: 'image', src: '/images/supermarket-1.jpg', alt: 'Main Dashboard' },
-        { type: 'image', src: '/images/supermarket-2.jpg', alt: 'Product Management' },
-        { type: 'image', src: '/images/supermarket-3.jpg', alt: 'Sales Reports' },
-        { type: 'video', src: '/videos/supermarket-demo.mp4', alt: 'System Overview Demo' }
-      ],
-      githubUrl: "https://github.com/orsreshef/supermarket-system",
-      type: "application"
-    },
-    {
-      id: 5,
       title: "Automated Travel Report Generator",
       subtitle: "Workflow Automation",
       description: "An automated system using N8N workflows to generate and email personalized travel reports. Demonstrates proficiency in API integration and workflow automation.",
@@ -91,6 +76,38 @@ const Portfolio = () => {
       ],
       githubUrl: "https://github.com/orsreshef/travel-report-automation",
       type: "automation"
+    },
+    {
+      id: 5,
+      title: "Supermarket Management System",
+      subtitle: "Object-Oriented Programming",
+      description: "A comprehensive Buy & Sell system demonstrating advanced OOP concepts in Java. Focuses on clean architecture, design patterns, and maintainable code structure.",
+      technologies: ["Java", "OOP", "Design Patterns", "Clean Architecture", "SOLID Principles"],
+      media: [
+        { type: 'image', src: '/images/supermarket-1.png', alt: 'Main Dashboard' },
+        { type: 'image', src: '/images/supermarket-2.png', alt: 'Product Management' },
+        { type: 'image', src: '/images/supermarket-3.png', alt: 'Sales Reports' },
+        { type: 'video', src: '/videos/supermarket-demo.mp4', alt: 'System Overview Demo' }
+      ],
+      githubUrl: "https://github.com/orsreshef/supermarket-system",
+      type: "application"
+    },
+    {
+      id: 6,
+      title: "Unity 3D Adventure Game",
+      subtitle: "Unity Game Development",
+      description: "Third-person 3D action game built with Unity and C#. Features character animations from Mixamo, custom gameplay mechanics, sound design and Unity Asset Store integrations. Demonstrates proficiency in game development workflow, C# scripting and Unity engine.",
+      technologies: ["Unity3D", "C#", "Game Development", "Mixamo", "Unity Asset Store", "3D Animation", "Sound Design"],
+      media: [
+        { type: 'image', src: '/images/game7.png', alt: 'Main Dashboard' },
+        { type: 'image', src: '/images/game2.png', alt: 'Product Management' },
+        { type: 'image', src: '/images/game3.png', alt: 'Sales Reports' },
+        { type: 'image', src: '/images/game5.png', alt: 'Sales Reports' },
+        { type: 'image', src: '/images/game9.png', alt: 'Sales Reports' },
+        { type: 'video', src: '/videos/unity1.mp4', alt: 'Game Demo' },
+        { type: 'video', src: '/videos/unity2.mp4', alt: 'New Game Scene' }
+      ],
+      type: "game"
     }
   ];
 
@@ -276,7 +293,7 @@ const Portfolio = () => {
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-sage-200 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <h1 className="text-2xl font-bold text-sage-900">Or Reshef</h1>
+            <h1 className="text-2xl font-bold text-sage-900">Or Reshef S</h1>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
@@ -333,11 +350,21 @@ const Portfolio = () => {
               and a proven track record of building complete web applications from concept to deployment.
             </p>
             <div className="flex justify-center gap-4 mt-8">
-              <a href="mailto:orsreshef@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors">
+              <a 
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=orsreshef@gmail.com&su=Let's%20Talk!"
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Mail size={20} />
-                Contact Me
+                contact me
               </a>
-              <a href="https://www.linkedin.com/in/or-reshef-s" className="flex items-center gap-2 px-6 py-3 bg-earth-600 text-white rounded-lg hover:bg-earth-700 transition-colors">
+              
+              <a href="https://www.linkedin.com/in/or-reshef-s" 
+                className="flex items-center gap-2 px-6 py-3 bg-earth-600 text-white rounded-lg hover:bg-earth-700 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin size={20} />
                 LinkedIn
               </a>
@@ -439,15 +466,25 @@ const Portfolio = () => {
 
           <div className="mt-12 bg-gradient-to-r from-sage-50 to-earth-50 rounded-xl p-8 border border-sage-200">
             <h3 className="text-2xl font-bold text-sage-900 mb-4">Specialties & Achievements</h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               <div>
                 <h4 className="font-semibold text-sage-800 mb-2">High GPA Subjects (98+)</h4>
                 <ul className="space-y-1 text-sage-700">
+                  <li>• Web Development</li>
                   <li>• Object-Oriented Programming</li>
                   <li>• Algorithms & Data Structures</li>
-                  <li>• Web Development & Security</li>
                 </ul>
               </div>
+
+              <div>
+                <h4 className="font-semibold text-sage-800 mb-2">Design</h4>
+                <ul className="space-y-1 text-sage-700">
+                  <li>• AI Algorithm Development</li>
+                  <li>• Computer Graphics</li>
+                  <li>• Unity 3D</li>
+                </ul>
+              </div>
+
               <div>
                 <h4 className="font-semibold text-sage-800 mb-2">Security & Best Practices</h4>
                 <ul className="space-y-1 text-sage-700">
@@ -472,12 +509,15 @@ const Portfolio = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a 
-              href="mailto:orsreshef@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=orsreshef@gmail.com&su=Let's%20Talk!"
               className="flex items-center justify-center gap-2 px-8 py-4 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-lg"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Mail size={24} />
               orsreshef@gmail.com
             </a>
+            
             <a 
               href="https://www.linkedin.com/in/or-reshef-s"
               className="flex items-center justify-center gap-2 px-8 py-4 bg-earth-600 text-white rounded-lg hover:bg-earth-700 transition-colors text-lg"
@@ -505,7 +545,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="bg-sage-900 text-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-sage-300">© 2025 Or Reshef. Built with React and deployed on GitHub Pages.</p>
+          <p className="text-sage-300">© 2025 Or Reshef S. Built with React and deployed on GitHub Pages.</p>
           <p className="text-sage-400 mt-2">Passionate about creating innovative solutions through code.</p>
         </div>
       </footer>

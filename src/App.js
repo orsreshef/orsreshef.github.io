@@ -39,31 +39,6 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "AI Combat Game - Team Vs Team Strategy",
-      subtitle: "Multi-Agent AI System with Advanced Pathfinding & State Machines",
-      description: "Real-time strategy game with autonomous AI teams and tactical coordination. Demonstrates OOP with polymorphic unit classes and Commander-led decision-making. Implements A* pathfinding, BFS algorithms, and hierarchical FSMs.",
-      technologies: ["C++", 
-        "OpenGL", 
-        "A* Pathfinding", 
-        "BFS Algorithm",
-        "OOP Design",
-        "Polymorphism",
-        "Finite State Machines",
-        "Multi-Agent AI",
-        "Real-Time Strategy",
-        "Collision Detection"],
-      media: [
-        { type: 'image', src: '/images/gameplay1.png', alt: 'Combat Game Interface' },
-        { type: 'image', src: '/images/gameplay4.png', alt: 'The Warriors' },
-        { type: 'image', src: '/images/gameplay3.png', alt: 'Gunshots and grenades' },
-        { type: 'image', src: '/images/gameplay5.png', alt: 'Game board' },
-        { type: 'video', src: '/videos/combat-game-demo.mp4', alt: 'Full Gameplay Demo' }
-      ],
-      githubUrl: "https://github.com/orsreshef/AI-combat-game",
-      type: "game"
-    },
-    {
-      id: 4,
       title: "Automated Travel Report Generator",
       subtitle: "Workflow Automation",
       description: "An automated system using N8N workflows to generate and email personalized travel reports. Demonstrates proficiency in API integration and workflow automation.",
@@ -78,22 +53,20 @@ const Portfolio = () => {
       type: "automation"
     },
     {
-      id: 5,
+      id: 4,
       title: "Supermarket Management System",
       subtitle: "Object-Oriented Programming",
       description: "A comprehensive Buy & Sell system demonstrating advanced OOP concepts in Java. Focuses on clean architecture, design patterns, and maintainable code structure.",
       technologies: ["Java", "OOP", "Design Patterns", "Clean Architecture", "SOLID Principles"],
       media: [
-        { type: 'image', src: '/images/supermarket-1.png', alt: 'Main Dashboard' },
-        { type: 'image', src: '/images/supermarket-2.png', alt: 'Product Management' },
-        { type: 'image', src: '/images/supermarket-3.png', alt: 'Sales Reports' },
-        { type: 'video', src: '/videos/supermarket-demo.mp4', alt: 'System Overview Demo' }
+        { type: 'image', src: '/images/shopping.jpg', alt: 'supermarket' },
+       
       ],
       githubUrl: "https://github.com/orsreshef/supermarket-system",
       type: "application"
     },
     {
-      id: 6,
+      id: 5,
       title: "Unity 3D Adventure Game",
       subtitle: "Unity Game Development",
       description: "Third-person 3D action game built with Unity and C#. Features character animations from Mixamo, custom gameplay mechanics, sound design and Unity Asset Store integrations. Demonstrates proficiency in game development workflow, C# scripting and Unity engine.",
